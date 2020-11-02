@@ -1,0 +1,21 @@
+{
+  "name": "javascript-track-assessment",
+  "version": "1.0.0",
+  "description": "## Instructions",
+  "main": "main.js",
+  "scripts": {
+    "main": "node main.js",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/she-code-africa/javascript-track-assessment-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/she-code-africa/javascript-track-assessment-/issues"
+  },
+  "homepage": "https://github.com/she-code-africa/javascript-track-assessment-#readme"
+}
