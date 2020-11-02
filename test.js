@@ -4,7 +4,6 @@ const fs = require("fs")
 const path = require("path")
 
 const main = require("./main");
-const { stringify } = require("querystring");
 
 const testCaseInputFolder = "./testcase/input/"
 const testCaseOutputFolder = "./testcase/output/"
@@ -25,9 +24,10 @@ function getTestCaseData(file) {
 
 function testUpperCase() {
     process.stdout.write(">> Default: String Upppercase\n")
+
     assert.deepStrictEqual("foo".toUpperCase(), "FOO", "Default Test: expected 'foo' to be uppercase 'FOO'")
-    process.stdout.write("-- Passed ✓ \n")
-    process.stdout.write("\n")
+
+    process.stdout.write("-- Passed ✓ \n\n")
 }
 
 function runTestCase0() {
@@ -35,11 +35,11 @@ function runTestCase0() {
 
     const output = main.fibonacci(getTestCaseData("input0.txt"))
     const expectedOut = getTestCaseData("output0.txt")
-
     const cleanExpectedOut = expectedOut.slice(1, expectedOut.length - 1).split(",").map(Number)
 
     assert.deepStrictEqual(output, cleanExpectedOut)
-    process.stdout.write("-- Passed ✓ \n")
+
+    process.stdout.write("-- Passed ✓ \n\n")
 }
 
 (
