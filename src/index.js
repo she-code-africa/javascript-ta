@@ -1,16 +1,10 @@
 // complete the function
-function fibonacci(n) {
-  const arr = [];
+function palindrom(str) {
+  // code goes here
+}
 
-  for (let i = 0; i < n; i++) {
-    if (i === 0 || i === 1) {
-      arr[i] = i;
-    } else {
-      arr[i] = arr[i - 1] + arr[i - 2];
-    }
-  }
-
-  return arr;
+function solution(arg) {
+  return palindrom(arg);
 }
 
 if (typeof require !== "undefined" && require.main === module) {
@@ -18,8 +12,8 @@ if (typeof require !== "undefined" && require.main === module) {
     throw Error("Require argument");
   }
 
-  const n = process.argv[2];
-  console.log(fibonacci(n));
+  const arg = process.argv[2];
+  console.log(solution(arg));
 }
 
-module.exports = { fibonacci };
+module.exports = { solution };
