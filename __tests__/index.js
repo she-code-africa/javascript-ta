@@ -4,7 +4,7 @@ describe("Sample Test", () => {
   it("Test string uppercase", () => {
     const output = "foo".toUpperCase();
     const expected = "FOO";
-    expect(output).toBe(expected);
+    expect(output).toStrictEqual(expected);
   });
 });
 
@@ -13,7 +13,7 @@ describe("Test solutions", () => {
     const input = 10;
     const output = fibonacci(input);
     const expected = [0, 1, 1, 2, 3, 5, 8, 13, 21, 34];
-    expected(output).toBe(expected);
+    expect(output).toStrictEqual(expected);
   });
 
   it("Testcase 1", () => {
@@ -81,6 +81,6 @@ describe("Test solutions", () => {
       591286729879,
       956722026041,
     ];
-    expected(output).toBe(expected);
+    expect(output).toStrictEqual(expected);
   });
 });

@@ -1,8 +1,3 @@
-module.exports = { fibonacci };
-
-const n = process.argv[2];
-console.log(fibonacci(n));
-
 // complete the function
 function fibonacci(n) {
   const arr = [];
@@ -18,4 +13,13 @@ function fibonacci(n) {
   return arr;
 }
 
-(function () {})();
+if (typeof require !== "undefined" && require.main === module) {
+  if (process.argv.length <= 2) {
+    throw Error("Require argument");
+  }
+
+  const n = process.argv[2];
+  console.log(fibonacci(n));
+}
+
+module.exports = { fibonacci };
