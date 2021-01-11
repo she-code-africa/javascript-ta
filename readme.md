@@ -12,21 +12,33 @@ Please perform the following instructions.
 * Push your update to your repository.
 * Submit your repository URL on the provided google form.
 
-## Problem Set
-
-Write the algorithm for a Fibonacci function that receives an arguments n and return an array containing the fibonacci squence starting from the zero index.
-
 ## Example
 
 ```js
-function fibonacci(n){
+// src/index.js
 
-    // Magic
-
+// complete the function
+function palindrom(str) {
+  // code goes here
 }
 
-console.log(fibonacci(process.argv[2]))
+function solution(arg) {
+  return palindrom(arg);
+}
+```
 
-// Need Help?
+## Running
 
+``` shell
+# run the solution
+$: npm start <input>
+```
+
+## Testing
+``` shell
+$: npm test
+```
+
+
+## Need Help?
 contact: ***
