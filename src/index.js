@@ -1,6 +1,16 @@
 // complete the function
 function palindrom(str) {
-  // code goes here
+  let reply;
+  let len = Math.trunc(str.length / 2);
+  for (let i = 0; i < len; i++) {
+    if (str[i] === str[str.length - i - 1]) {
+      reply = `${str} is a palindrome`;
+    } else {
+      reply = `${str} is not a palindrome`;
+    }
+  }
+
+  return reply;
 }
 
 function solution(arg) {
