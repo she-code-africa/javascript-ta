@@ -18,12 +18,12 @@ Please perform the following instructions.
 // src/index.js
 
 // complete the function
-function palindrom(str) {
+function prime(num) {
   // code goes here
 }
 
 function solution(arg) {
-  return palindrom(arg);
+  return prime(arg);
 }
 ```
 
@@ -41,4 +41,4 @@ $: npm test
 
 
 ## Need Help?
-contact: ***
+contact: engineering@shecodeafrica.org

@@ -1,10 +1,10 @@
 // complete the function
-function palindrom(str) {
+function prime (num) {
   // code goes here
 }
 
-function solution(arg) {
-  return palindrom(arg);
+function solution (arg) {
+  return prime(arg);
 }
 
 if (typeof require !== "undefined" && require.main === module) {
