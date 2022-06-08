@@ -44,4 +44,5 @@ describe("Test solutions", () => {
     const output = solution(input);
     expect(output).toStrictEqual(true);
   });
+
 });
