@@ -1,12 +1,7 @@
 // complete the function
 function prime (num) {
   // code goes here
-  if(num % 1 == 0) {
-    return true
-  }
-  else{
-    return false
-  }
+  return num % 1 == 0 ? true : false
 }
 
 function solution (arg) {
