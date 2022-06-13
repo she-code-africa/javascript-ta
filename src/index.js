@@ -1,7 +1,7 @@
 // complete the function
 function prime (num) {
   
-  console.log("hi")
+  console.log("hi 1")
   let temp = 0;
 for (let i = 2; i <= num / 2; i++) {
   // check if num is divisible by any number.
@@ -15,7 +15,7 @@ for (let i = 2; i <= num / 2; i++) {
 // return temp && num != 1
 //   ? console.log(`${num} is prime`)
 //   : console.log(`${num} is not prime`);
-return console.log("hi")
+return console.log("hi 2")
 }
 
 function solution (arg) {
