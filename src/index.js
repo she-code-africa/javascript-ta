@@ -10,10 +10,10 @@ for (let i = 2; i <= num / 2; i++) {
 
 // check for the value of temp and num.
 
-return temp && num != 1
-  ? console.log(`${num} is prime`)
-  : console.log(`${num} is not prime`);
-
+// return temp && num != 1
+//   ? console.log(`${num} is prime`)
+//   : console.log(`${num} is not prime`);
+return "hi"
 }
 
 function solution (arg) {
