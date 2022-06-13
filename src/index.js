@@ -13,7 +13,7 @@ for (let i = 2; i <= num / 2; i++) {
 // return temp && num != 1
 //   ? console.log(`${num} is prime`)
 //   : console.log(`${num} is not prime`);
-return "hi"
+return console.log("hi")
 }
 
 function solution (arg) {
